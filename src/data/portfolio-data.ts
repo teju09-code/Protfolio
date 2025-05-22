@@ -44,7 +44,7 @@ export const projects: Project[] = [
     id: 1,
     title: "Weather Forecast ",
     description: "Developed a real-time weather forecasting dashboard with dynamic temperature, humidity, wind speed, and 5-day forecast display, including location search, geolocation support, and light/dark mode toggle",
-    image: "./public/weather.png",
+    image: "/weather.png",
     tags: [ "React" ,"Javascript","Html","CSS"],
     demoLink: "https://weather-forcast-app-one.vercel.app/",
     codeLink: "https://github.com/teju09-code/weather-forcast-app"
@@ -53,7 +53,7 @@ export const projects: Project[] = [
     id: 2,
     title: "Movie Recommendaer System",
     description: "Developed a content-based movie recommender system using Python, Pandas, and NLP. Extracted features from metadata and overviews, applied vectorization, and used cosine similarity to suggest similar movies effectively",
-    image: "./public/movie.png",
+    image: "/movie.png",
     tags: ["Python", "Pandas", "Streamlit"],
     demoLink: "https://movie-recommendation-system-cwgevw9f5wm2vdmzn5ln4d.streamlit.app/",
     codeLink: "https://github.com/teju09-code/Movie-recommendation-system"
@@ -63,7 +63,7 @@ export const projects: Project[] = [
     id: 3,
     title: "Research Work-Cervical Cancer Detection",
     description: "Developed a deep learning tool using customized SqueezeNet with attention for multi-class cervical cell classification, enhancing diagnostic accuracy and aiding early detection using the SIPaKMeD dataset",
-    image: "./public/cervical.jpeg",
+    image: "/cervical.jpeg",
     tags: ["Python", "Sklearn","Keras"],
     demoLink: "",
     codeLink: "https://github.com/teju09-code/cervical-cancer-screening-through-enhanced-squeez-net"
@@ -72,7 +72,7 @@ export const projects: Project[] = [
     id: 4,
     title: "ToDo List",
     description: "Built a responsive to-do list app with task creation, editing, and deletion features. Integrated local storage for persistence and intuitive UI to help users manage daily tasks efficiently",
-    image: "./public/taskflow.png",
+    image: "/taskflow.png",
     tags: ["Javascript", "CSS", "Html"],
     demoLink: "https://task-flow-blue.vercel.app/",
     codeLink: "https://github.com/teju09-code/Task-Flow"
@@ -99,7 +99,8 @@ export const skills: Skill[] = [
   { name: "TensorFlow", icon: "brain", category: "ml", proficiency: 7 },
   { name: "scikit-learn", icon: "brain", category: "ml", proficiency: 8 },
   { name: "Computer Vision", icon: "eye", category: "ml", proficiency: 7 },
-
+  
+  //tools
   { name: "Git", icon: "git-branch", category : "tools", proficiency: 8 },
   { name: "AWS", icon: "cloud", category: "tools", proficiency: 6 },
   { name: "VSCode", icon: "code", category: "tools", proficiency: 9 },

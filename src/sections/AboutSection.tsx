@@ -15,7 +15,7 @@ export const AboutSection = () => {
           <div className="relative rounded-lg overflow-hidden shadow-xl">
             <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-tr from-purple-600/20 to-transparent"></div>
             <img 
-              src="./public/image.jpeg" 
+              src="/image.jpeg" 
               alt="Tejasri Gottipati" 
               className="w-full h-auto rounded-lg transform transition-transform duration-700 hover:scale-105"
             />
